@@ -41,3 +41,42 @@ or
 
 ## If you delete repo on github remove the .git file
 1. rm .git
+
+# Deploying To Netlify
+
+1. Account at netlify log in.
+
+1. Click on team name select sites tab.
+
+1. Site click on the deploy from git
+
+1. Select GitHub
+
+1. Show your repo's
+
+1. Select the repo to build
+
+1. Make sure to write the correct build command.
+
+```
+
+parcel build src/index.html
+
+
+
+```
+
+1. Netlify will deploy the repo.
+
+
+
+
+# VS CODE
+
+1. Make changes
+
+1. Commit the changes
+
+1. Push the changes to remote repo.
+
+1. Netlify see's changes and build a new site.
