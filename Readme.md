@@ -38,3 +38,6 @@ or
 1. select settings
 1. scroll to bottom
 1. delete the repo
+
+## If you delete repo on github remove the .git file
+1. rm .git
